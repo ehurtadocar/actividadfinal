@@ -1,0 +1,69 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  header {
+    background-color: #111;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 0.5rem;
+  }
+  
+  nav ul li {
+    margin: 0 15px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: white;
+    padding: 0.5rem;
+    transition: background-color 0.3s;
+  }
+  
+  nav a:hover,
+  nav a.active {
+    background-color: #ff4c4c;
+    border-radius: 5px;
+  }
+  
+  .container {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+  }
+  
+  section {
+    margin-bottom: 2rem;
+  }
+  
+  h2 {
+    margin-bottom: 0.5rem;
+    color: #ff4c4c;
+  }
+  
+  footer {
+    background-color: #111;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+  }
+  
