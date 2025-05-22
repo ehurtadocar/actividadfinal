@@ -14,35 +14,64 @@
       <button id="toggle-theme" aria-label="Cambiar tema">🌓</button>
       <nav>
         <ul>
-          <li><a href="#" class="active">Inicio</a></li>
-          <li><a href="#">Historia</a></li>
-          <li><a href="#">Estilos</a></li>
-          <li><a href="#">Eventos</a></li>
-          <li><a href="#">Contacto</a></li>
+          <li><a href="#inicio" class="active">Inicio</a></li>
+          <li><a href="#historia">Historia</a></li>
+          <li><a href="#estilos">Estilos</a></li>
+          <li><a href="#eventos">Eventos</a></li>
+          <li><a href="#contacto">Contacto</a></li>
         </ul>
       </nav>
     </div>
   </header>
 
   <main class="container">
-    <section class="intro fade-in">
+    <section id="inicio" class="intro fade-in">
       <h2>¿Qué es la MMA?</h2>
       <p>La MMA combina disciplinas como boxeo, jiu-jitsu, muay thai, judo y lucha libre. Es un deporte que pone a prueba fuerza, técnica y estrategia.</p>
     </section>
 
-    <section class="feature-grid fade-in">
-      <div class="card">
-        <h3>Popularidad Mundial</h3>
-        <p>Con organizaciones como la UFC, la MMA se ha convertido en un fenómeno global con millones de aficionados.</p>
-      </div>
-      <div class="card">
-        <h3>Entrenamiento Completo</h3>
-        <p>Los luchadores entrenan resistencia, técnica, agilidad y control mental para destacar en la jaula.</p>
-      </div>
-      <div class="card">
-        <h3>Disciplina y Respeto</h3>
-        <p>Más allá de la fuerza, la MMA enseña valores como la constancia, la humildad y el respeto por el oponente.</p>
-      </div>
+    <section id="historia" class="fade-in">
+      <h2>Historia de la MMA</h2>
+      <p>La MMA moderna nació oficialmente en 1993 con el primer evento de la UFC en EE.UU. Sin embargo, sus raíces se remontan a la antigua Grecia con el pankration, una forma de lucha sin reglas. A lo largo de los años, la MMA evolucionó desde un espectáculo brutal hacia un deporte regulado con reglas claras, divisiones de peso, árbitros y equipamiento protector.</p>
+    </section>
+
+    <section id="estilos" class="fade-in">
+      <h2>Estilos de Combate</h2>
+      <ul>
+        <li><strong>Jiu-Jitsu Brasileño:</strong> enfocado en llaves, sumisiones y lucha en el suelo.</li>
+        <li><strong>Muay Thai:</strong> arte marcial tailandés que utiliza puños, codos, rodillas y piernas.</li>
+        <li><strong>Boxeo:</strong> trabajo de puños, movilidad y estrategia de ataque/defensa.</li>
+        <li><strong>Lucha Olímpica:</strong> control del oponente a través de derribos y proyecciones.</li>
+        <li><strong>Karate y Taekwondo:</strong> técnicas de pierna y precisión.</li>
+      </ul>
+    </section>
+
+    <section id="eventos" class="fade-in">
+      <h2>Eventos Principales</h2>
+      <p>Los eventos más destacados del mundo MMA incluyen:</p>
+      <ul>
+        <li><strong>UFC (Ultimate Fighting Championship):</strong> la organización más grande y famosa.</li>
+        <li><strong>Bellator:</strong> ofrece competidores de alto nivel y combates espectaculares.</li>
+        <li><strong>ONE Championship:</strong> basada en Asia, promueve valores tradicionales de las artes marciales.</li>
+      </ul>
+      <p>Estos eventos se realizan en jaulas octagonales, con reglas unificadas y transmisión internacional.</p>
+    </section>
+
+    <section id="contacto" class="fade-in">
+      <h2>Contacto</h2>
+      <p>¿Quieres saber más sobre la MMA o colaborar con este proyecto? Rellena el siguiente formulario:</p>
+      <form class="contact-form">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required />
+
+        <label for="email">Correo electrónico:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+        <button type="submit">Enviar</button>
+      </form>
     </section>
   </main>
 
