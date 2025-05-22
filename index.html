@@ -5,40 +5,53 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>MMA - Artes Marciales Mixtas</title>
   <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet" />
 </head>
 <body>
   <header>
-    <h1>Artes Marciales Mixtas (MMA)</h1>
-    <nav>
-      <ul>
-        <li><a href="#" class="active">Inicio</a></li>
-        <li><a href="#">Historia</a></li>
-        <li><a href="#">Estilos</a></li>
-        <li><a href="#">Eventos</a></li>
-        <li><a href="#">Contacto</a></li>
-      </ul>
-    </nav>
+    <div class="container">
+      <h1>MMA: Artes Marciales Mixtas</h1>
+      <button id="toggle-theme" aria-label="Cambiar tema">🌓</button>
+      <nav>
+        <ul>
+          <li><a href="#" class="active">Inicio</a></li>
+          <li><a href="#">Historia</a></li>
+          <li><a href="#">Estilos</a></li>
+          <li><a href="#">Eventos</a></li>
+          <li><a href="#">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
 
   <main class="container">
-    <section>
+    <section class="intro fade-in">
       <h2>¿Qué es la MMA?</h2>
-      <p>Las Artes Marciales Mixtas (MMA) son un deporte de combate que combina técnicas de diversas disciplinas como el boxeo, jiu-jitsu brasileño, muay thai, lucha libre, judo y karate. Es uno de los deportes de contacto más completos y exigentes del mundo.</p>
+      <p>La MMA combina disciplinas como boxeo, jiu-jitsu, muay thai, judo y lucha libre. Es un deporte que pone a prueba fuerza, técnica y estrategia.</p>
     </section>
 
-    <section>
-      <h2>Popularidad Mundial</h2>
-      <p>Con organizaciones como la UFC (Ultimate Fighting Championship), la MMA ha ganado una enorme popularidad a nivel global. Los luchadores compiten en jaulas octagonales usando técnicas variadas para vencer a sus oponentes.</p>
-    </section>
-
-    <section>
-      <h2>Disciplina y Entrenamiento</h2>
-      <p>Los atletas de MMA deben entrenar múltiples estilos de combate y desarrollar habilidades físicas y mentales para competir al más alto nivel. La preparación incluye sparring, técnica, acondicionamiento físico y estrategia.</p>
+    <section class="feature-grid fade-in">
+      <div class="card">
+        <h3>Popularidad Mundial</h3>
+        <p>Con organizaciones como la UFC, la MMA se ha convertido en un fenómeno global con millones de aficionados.</p>
+      </div>
+      <div class="card">
+        <h3>Entrenamiento Completo</h3>
+        <p>Los luchadores entrenan resistencia, técnica, agilidad y control mental para destacar en la jaula.</p>
+      </div>
+      <div class="card">
+        <h3>Disciplina y Respeto</h3>
+        <p>Más allá de la fuerza, la MMA enseña valores como la constancia, la humildad y el respeto por el oponente.</p>
+      </div>
     </section>
   </main>
 
   <footer>
-    <p>&copy; 2025 MMA Web | Proyecto educativo</p>
+    <div class="container">
+      <p>&copy; 2025 MMA Web | Proyecto educativo</p>
+    </div>
   </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
