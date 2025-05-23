@@ -2,16 +2,17 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>MMA - Artes Marciales Mixtas</title>
-  <link rel="stylesheet" href="styles.css"/>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <header>
-    <div class="container">
-      <h1>MMA: Artes Marciales Mixtas</h1>
+  <header class="site-header">
+    <div class="container flex">
+      <img src="img/logo-mma.png" alt="Logo MMA" class="logo" />
+      <h1>Artes Marciales Mixtas</h1>
       <nav>
-        <ul>
+        <ul class="nav">
           <li><a href="index.html" class="active">Inicio</a></li>
           <li><a href="historia.html">Historia</a></li>
           <li><a href="estilos.html">Estilos</a></li>
@@ -22,17 +23,32 @@
     </div>
   </header>
 
+  <!-- Hero -->
+  <section class="hero">
+    <img src="img/mma-fight.jpg" class="hero-img" alt="Combate de MMA en el octágono" />
+    <div class="hero-text">
+      <h2>El deporte de contacto definitivo</h2>
+      <p>Técnica, fuerza y estrategia unificadas en un solo combate.</p>
+    </div>
+  </section>
+
   <main class="container">
     <section class="intro">
-      <h2>Bienvenido a la web de MMA</h2>
-      <p>Explora la historia, estilos de combate, eventos y mucho más sobre las Artes Marciales Mixtas.</p>
+      <h2>¿Qué es la MMA?</h2>
+      <p>
+        Las Artes Marciales Mixtas combinan disciplinas como boxeo,
+        jiu-jitsu, muay thai, lucha olímpica y más. Es uno de los deportes más
+        completos y exigentes del mundo.
+      </p>
     </section>
   </main>
 
-  <footer>
+  <footer class="site-footer">
     <div class="container">
       <p>&copy; 2025 MMA Web | Proyecto educativo</p>
     </div>
   </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>

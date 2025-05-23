@@ -1,17 +1,18 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Eventos - MMA</title>
-  <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Eventos | MMA</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <header>
-    <div class="container">
+  <header class="site-header">
+    <div class="container flex">
+      <img src="img/logo-mma.png" alt="Logo MMA" class="logo" />
       <h1>Eventos de MMA</h1>
       <nav>
-        <ul>
+        <ul class="nav">
           <li><a href="index.html">Inicio</a></li>
           <li><a href="historia.html">Historia</a></li>
           <li><a href="estilos.html">Estilos</a></li>
@@ -23,19 +24,21 @@
   </header>
 
   <main class="container">
-    <section>
-      <ul>
-        <li><strong>UFC:</strong> La principal organización de MMA a nivel mundial.</li>
-        <li><strong>Bellator:</strong> Grandes combates y talentos emergentes.</li>
-        <li><strong>ONE Championship:</strong> Con enfoque asiático y valores tradicionales.</li>
-      </ul>
-    </section>
+    <h2>Promociones destacadas</h2>
+    <img src="img/mma-event.jpg" alt="Gran evento de MMA" />
+    <ul class="events-list">
+      <li><strong>UFC:</strong> la organización líder mundial con eventos mensuales.</li>
+      <li><strong>Bellator MMA:</strong> combates espectaculares y formato de torneos.</li>
+      <li><strong>ONE Championship:</strong> énfasis en valores tradicionales y artes marciales asiáticas.</li>
+    </ul>
   </main>
 
-  <footer>
+  <footer class="site-footer">
     <div class="container">
       <p>&copy; 2025 MMA Web</p>
     </div>
   </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
